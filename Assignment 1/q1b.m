@@ -70,4 +70,4 @@ for i = 1:n
     a = a + nhati*nhati';
 end
 x = a\sum(-nhat.*repmat(d,2,1),2);
-
+end
